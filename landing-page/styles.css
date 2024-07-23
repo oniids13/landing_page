@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    display:flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: antiquewhite;
+    padding: 50px;
+}
+
+header a{
+    text-decoration: none;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+h2{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.photo{
+    height: 300px;
+    width: auto;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.about p {
+    width: 300px;
+    font-size: 18px;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+.nav{
+    margin-left: auto
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.upper{
+    padding: 5px 300px 5px 300px;
+    background-color: #1F2937;
+    height: 50%;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    padding-top: 40px;
+}
+
+
+button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100px;
+    border-color: #F9FAF8;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 40px 250px;
+}
+
+.col{
+    max-width: 200px;
+    flex: 1;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.quotes-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #E5E7EB;
+}
+.quotes{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 600px;
+    padding: 200px auto 200px auto;
+}
+
+
+.lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 700px;
+    margin: 100px;
+    padding: 30px 50px;
+    gap: 50px;
+}
+
+.txt{
+    text-align: start;
+    color: #F9FAF8;
+}
+.btn{
+    margin-left: auto;
+}
